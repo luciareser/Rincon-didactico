@@ -452,15 +452,13 @@ html {
             transform: scale(1.2);
   }
   /*Sección 5: contacto*/
-  #contacto {
-    background-color: #f7f7f7;
-    width: 100%;
-  }
   #contacto label {
     font-family: 'letters_for_learnersregular';
     font-size: 2.4rem;
   }
   #contacto .row {
+    background-color: #f7f7f7;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -401,8 +401,7 @@ ul, img, li {
 /*Sección 5: contacto*/
 
 #contacto{
- background-color: rgb(247, 247, 247);
-  width: 100%;
+
 
 }
 
@@ -412,6 +411,8 @@ ul, img, li {
 }
 
 #contacto .row {
+  background-color: rgb(247, 247, 247);
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-right: -10px;
