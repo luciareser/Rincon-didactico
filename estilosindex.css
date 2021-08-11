@@ -26,7 +26,7 @@ html {
 }
 
 .nav-link {
-  font-family: Letters for Learners;
+  font-family: 'letters_for_learnersregular';
   font-size: 2.5rem;
   margin-right: 80px;
 }
@@ -41,7 +41,7 @@ html {
 
 .dropdown-item {
   font-size: 1.9rem;
-  font-family: Letters for Learners;
+  font-family: 'letters_for_learnersregular';
 }
 
 /*Sección 1: Bienvenido y descripción*/
@@ -57,7 +57,7 @@ html {
 
 .título {
   font-size: 10rem;
-  font-family: Letters for learners;
+  font-family: 'letters_for_learnersregular';
   color: white;
   font-style: normal;
   font-weight: bold;
@@ -173,7 +173,7 @@ html {
 }
 
 .historia_txt h2 {
-  font-family: Letters for Learners;
+  font-family: 'letters_for_learnersregular';
   color: #fdc02c;
   text-align: left;
   font-size: 4.8rem;
@@ -250,7 +250,7 @@ html {
   text-align: center;
   background-position: center;
   font-weight: lighter;
-  font-family: Letters for Learners;
+  font-family: 'letters_for_learnersregular';
   margin-top: 80px;
 }
 
@@ -320,7 +320,7 @@ html {
   .productos_art--txt h1 {
     margin-bottom: 10px;
     font-size: 35px;
-    font-family: Letters for Learners;
+    font-family: 'letters_for_learnersregular';
     font-weight: lighter;
     color: #ffffff;
   }
@@ -365,14 +365,14 @@ html {
     position: relative;
     padding: 0;
     line-height: 30px;
-    font-family: Letters for Learners;
+    font-family: 'letters_for_learnersregular';
   }
   .gal-cat {
     display: -ms-grid;
     display: grid;
   }
   .galeria ul .item h3 {
-    font-family: Letters for Learners;
+    font-family: 'letters_for_learnersregular';
     font-size: 3rem;
     color: white;
     text-shadow: -1px 2.5px 5px #161616;
@@ -456,7 +456,7 @@ html {
     width: 100%;
   }
   #contacto label {
-    font-family: Letters for Learners;
+    font-family: 'letters_for_learnersregular';
     font-size: 2.4rem;
   }
   #contacto .row {
@@ -478,7 +478,7 @@ html {
     color: #fdc02c;
     font-size: 5.2rem;
     font-weight: lighter;
-    font-family: Letters for Learners;
+    font-family: 'letters_for_learnersregular';
     text-align: center;
   }
   .encabezado-contacto p {
@@ -499,7 +499,7 @@ html {
     background-color: #292c2f;
     width: 100%;
     text-align: left;
-    font-family: Letters for Learners;
+    font-family: 'letters_for_learnersregular';
     font-size: 2.5rem;
     padding: 55px 50px;
   }
@@ -617,7 +617,7 @@ html {
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
-    font-family: Letters for Learners;
+    font-family: 'letters_for_learnersregular';
     font-size: 1.9rem;
   }
   .footer_distrib .footer-center i {
