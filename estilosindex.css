@@ -8,6 +8,14 @@
 
 html {
   font-size: 62.5%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'letters_for_learnersregular';
+  src: url("letters_for_learners.woff2") format("woff2"), url("letters_for_learners.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Menú*/
