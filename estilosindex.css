@@ -92,248 +92,239 @@ html {
   width: 100%;
 }
 
-.título {
-  font-size: 9rem;
-  font-family: 'letters_for_learnersregular';
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: -3px 3px 5px #252424;
-  margin-top: 50px;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-name: backInRight;
-          animation-name: backInRight;
-}
-
-@-webkit-keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.descripciónInicio {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 3.0rem;
-  font-weight: lighter;
-  color: white;
-  text-align: center;
-  text-shadow: -1px 1px 8px #252424;
-}
-
-.button #facebook {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  left: 1200px;
-  background: transparent;
-  border-radius: 100px;
-  z-index: 1;
-}
-
-.button #instagram {
-  position: fixed;
-  bottom: 80px;
-  right: 30px;
-  left: 1200px;
-  background: transparent;
-  border-radius: 100px;
-  z-index: 1;
-}
-
-/*Sección 2: historia (en "seguir leyendo" voy a la sección Rincón) y propósitos*/
-.historia {
-  margin-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.historia_contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.align-items-center {
-  -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
-}
-
-.justify-content-center {
-  -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
-}
-
-.d-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  max-width: 100%;
-}
-
-.row {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.historia_txt h2 {
-  font-family: 'letters_for_learnersregular';
-  color: #fdc02c;
-  text-align: left;
-  font-size: 4.8rem;
-  text-align: center;
-  text-shadow: -1px 2.5px 5px #d8d4d4;
-}
-
-.historia_txt p {
-  font-size: 1.9rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.historia_txt a {
-  font-size: 1.9rem;
-}
-
-.col-lg-6 {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  width: 50%;
-}
-
-.col-md-5 {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  width: 41.6666666667%;
-}
-
-.col-sm-6 {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  width: 50%;
-}
-
-.img-hist {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-
-.img-hist:hover {
-  -webkit-transform: scale(1.04);
-          transform: scale(1.04);
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-  -webkit-box-shadow: 4px 4px 8px 1px #252525;
-          box-shadow: 4px 4px 8px 1px #252525;
-}
-
-/*Sección 3: productos (categorías generales)*/
-.seccion3 {
-  background: #3d9262;
-  margin-top: 85px;
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin-bottom: 30px;
-  text-align: center;
-  text-shadow: -1px 2.5px 5px #575656;
-}
-
-.productosTitulo {
-  width: 100%;
-  font-size: 5rem;
-  color: #ffffff;
-  font-weight: 500;
-  text-align: center;
-  background-position: center;
-  font-weight: lighter;
-  font-family: 'letters_for_learnersregular';
-  margin-top: 80px;
-}
-
-.descProductos {
-  text-align-last: center;
-  font-size: 2rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: lighter;
-  color: #ffffff;
-}
-
-.container3 {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  display: -ms-grid;
-  display: grid;
-  margin-top: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 80px;
-}
-
 @media (min-width: 300px) {
+  .título {
+    font-size: 5rem;
+    font-family: 'letters_for_learnersregular';
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -3px 3px 5px #252424;
+    margin-top: 50px;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-name: backInRight;
+            animation-name: backInRight;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 600px) {
+  .título {
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) {
+  .título {
+    font-size: 9rem;
+  }
+  @-webkit-keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .descripciónInicio {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.0rem;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    text-shadow: -1px 1px 8px #252424;
+  }
+  .button #facebook {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    left: 1200px;
+    background: transparent;
+    border-radius: 100px;
+    z-index: 1;
+  }
+  .button #instagram {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    left: 1200px;
+    background: transparent;
+    border-radius: 100px;
+    z-index: 1;
+  }
+  /*Sección 2: historia (en "seguir leyendo" voy a la sección Rincón) y propósitos*/
+  .historia {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .historia_contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .align-items-center {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .justify-content-center {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    max-width: 100%;
+  }
+  .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .historia_txt h2 {
+    font-family: 'letters_for_learnersregular';
+    color: #fdc02c;
+    text-align: left;
+    font-size: 4.8rem;
+    text-align: center;
+    text-shadow: -1px 2.5px 5px #d8d4d4;
+  }
+  .historia_txt p {
+    font-size: 1.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .historia_txt a {
+    font-size: 1.9rem;
+  }
+  .col-lg-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 50%;
+  }
+  .col-md-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 41.6666666667%;
+  }
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 50%;
+  }
+  .img-hist {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  .img-hist:hover {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    -webkit-box-shadow: 4px 4px 8px 1px #252525;
+            box-shadow: 4px 4px 8px 1px #252525;
+  }
+  /*Sección 3: productos (categorías generales)*/
+  .seccion3 {
+    background: #3d9262;
+    margin-top: 85px;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: -1px 2.5px 5px #575656;
+  }
+  .productosTitulo {
+    width: 100%;
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    background-position: center;
+    font-weight: lighter;
+    font-family: 'letters_for_learnersregular';
+    margin-top: 80px;
+  }
+  .descProductos {
+    text-align-last: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+  }
+  .container3 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    display: -ms-grid;
+    display: grid;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) {
   .container3 {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
 }
 
-@media (min-width: 300px) and (min-width: 600px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) and (min-width: 600px) {
   .container3 {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) and (min-width: 600px) and (min-width: 900px) {
   .container3 {
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (min-width: 300px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) {
   .productos_art {
     margin: 5px;
     text-align: center;
@@ -445,28 +436,28 @@ html {
   }
 }
 
-@media (min-width: 300px) and (min-width: 300px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) and (min-width: 300px) {
   .grid-4 {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 600px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) and (min-width: 300px) and (min-width: 600px) {
   .grid-4 {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (min-width: 300px) and (min-width: 300px) and (min-width: 600px) and (min-width: 900px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) and (min-width: 300px) and (min-width: 600px) and (min-width: 900px) {
   .grid-4 {
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (min-width: 300px) and (min-width: 300px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) and (min-width: 300px) {
   .grid51 {
     width: 100%;
     display: -ms-grid;
@@ -641,7 +632,7 @@ html {
   /* Media queries footer*/
 }
 
-@media (min-width: 300px) and (min-width: 300px) and (max-width: 880px) {
+@media (min-width: 300px) and (min-width: 600px) and (min-width: 900px) and (min-width: 300px) and (min-width: 300px) and (max-width: 880px) {
   .footer_distrib {
     font: bold 14px sans-serif;
   }

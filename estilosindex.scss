@@ -93,29 +93,13 @@
 @media (min-width: 600px) {
   .título {
     font-size: 7rem;
-    font-family: 'letters_for_learnersregular';
-    color: white;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: -3px 3px 5px #252424;
-    margin-top: 50px;
-    animation-duration: 3s;
-    animation-name: backInRight;
+    
   }
 
 @media (min-width: 900px) {
 .título {
   font-size: 9rem;
-  font-family: 'letters_for_learnersregular';
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: -3px 3px 5px #252424;
-  margin-top: 50px;
-  animation-duration: 3s;
-  animation-name: backInRight;
+
 }
 
 @-webkit-keyframes aparecer {
@@ -645,4 +629,7 @@ iframe {
     margin-left: 0;
   }
 }}
+}
+}
+}
 }
