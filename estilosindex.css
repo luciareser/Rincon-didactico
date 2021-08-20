@@ -67,6 +67,19 @@ html {
   font-family: 'letters_for_learnersregular';
 }
 
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
 /*Sección 1: Bienvenido y descripción*/
 .bienvenido {
   height: 559px;
