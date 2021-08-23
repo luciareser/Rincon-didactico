@@ -75,14 +75,10 @@
   padding-top: 50px;
   width: 100%;
 }
-
-@media (min-width: 300px) {
   .título {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-family: 'letters_for_learnersregular';
     color: white;
-    text-align: center;
-    width: 90%;
     font-style: normal;
     font-weight: bold;
     text-align: center;
@@ -91,18 +87,6 @@
     animation-duration: 3s;
     animation-name: backInRight;
   }
-
-@media (min-width: 600px) {
-  .título {
-    font-size: 7rem;
-    
-  }
-
-@media (min-width: 900px) {
-.título {
-  font-size: 9rem;
-
-}
 
 @-webkit-keyframes aparecer {
   0% {
