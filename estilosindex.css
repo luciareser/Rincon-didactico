@@ -94,9 +94,11 @@ html {
 
 @media (min-width: 300px) {
   .título {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: 'letters_for_learnersregular';
     color: white;
+    text-align: center;
+    width: 90%;
     font-style: normal;
     font-weight: bold;
     text-align: center;
@@ -260,7 +262,7 @@ html {
   }
   /*Sección 3: productos (categorías generales)*/
   .seccion3 {
-    background: #3d9262;
+    background: #59ad7e;
     margin-top: 85px;
     width: 100%;
     display: -ms-grid;
@@ -479,6 +481,10 @@ html {
             transform: scale(1.2);
   }
   /*Sección 5: contacto*/
+  #contacto {
+    min-height: 500px;
+    position: relative;
+  }
   #contacto label {
     font-family: 'letters_for_learnersregular';
     font-size: 2.4rem;
@@ -510,8 +516,12 @@ html {
   .encabezado-contacto p {
     font-size: 1.5rem;
   }
+  .col-md-5 {
+    /*width: 50%;*/
+    margin-left: 100px;
+    padding-top: 150px;
+  }
   iframe {
-    min-width: 100%;
     -webkit-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
             box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.51);
     max-width: 100%;
